@@ -1,22 +1,22 @@
-# CIRCUIT // 09: Signal Lost
+# The Big Con: Case Files
 
-A standalone browser-based logic puzzle. Rotate circuit tiles to route power from the source to the core across five increasingly tricky levels.
+A browser-based puzzle game inspired by the original game's themes of influence networks, assets, market rumours, intelligence, and managing suspicion. Instead of a board game, each level is a compact route-planning challenge.
 
 ## Play
 
-Open `index.html` in a browser, or publish this repository as a GitHub Pages or Render Static Site. No build command, server, or external packages are needed.
+Open `index.html` in a browser, or publish this repository as a GitHub Pages or Render Static Site. No build command, server, or external packages are required.
 
-## Features
+## Gameplay
 
-- Five handcrafted grid layouts with randomized starting rotations
-- Click-to-rotate pipe tiles and live power-flow feedback
-- Move counter, undo, reset, hints, and level selection
-- Personal best scores saved in the browser
-- Responsive layout for desktop and mobile
+- Build a connected route through banks, media outlets, regulators, corporations, and commodity interests.
+- Meet each operation's required-institution objectives before reaching the target.
+- Keep an eye on your move budget and avoid too much heat.
+- Collect intel nodes to gain bonus moves.
+- Five case files, with undo, restart, hints, case selection, and a win screen.
 
 ## Controls
 
-Click a pipe tile to rotate it clockwise. Connect matching pipe openings from the blue source to the gold core. Use **Undo move** to reverse a rotation, **Reset grid** to restart the current puzzle, and **Give me a hint** if you get stuck.
+Select an adjacent node to extend your route. You cannot revisit a node. Use **Undo step** to reverse the previous move, **Restart case** to start over, and **Intel briefing** for a clue.
 
 ## Technology
 
