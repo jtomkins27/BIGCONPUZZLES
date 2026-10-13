@@ -1,26 +1,23 @@
-# THE BIG CON: SYNDICATE
+# CIRCUIT // 09: Signal Lost
 
-A browser-based strategy puzzle inspired by the connected asset network, market events, portfolio-building and tactical decisions in The Big Con.
+A standalone browser-based logic puzzle. Rotate circuit tiles to route power from the source to the core across five increasingly tricky levels.
 
 ## Play
 
-Open `index.html` in a browser, or enable GitHub Pages for this repository to publish it as a website.
+Open `index.html` in a browser, or publish this repository as a GitHub Pages or Render Static Site. No build command, server, or external packages are needed.
 
-## Modes
+## Features
 
-- **Solo vs AI:** Play against the Syndicate AI.
-- **Local multiplayer:** 2 to 4 players share one device and take turns.
+- Five handcrafted grid layouts with randomized starting rotations
+- Click-to-rotate pipe tiles and live power-flow feedback
+- Move counter, undo, reset, hints, and level selection
+- Personal best scores saved in the browser
+- Responsive layout for desktop and mobile
 
-Online multiplayer is not included. Online rooms require a server to synchronise players and game state.
+## Controls
 
-## Core rules
+Click a pipe tile to rotate it clockwise. Connect matching pipe openings from the blue source to the gold core. Use **Undo move** to reverse a rotation, **Reset grid** to restart the current puzzle, and **Give me a hint** if you get stuck.
 
-- Move between connected nodes on the network.
-- Claim unowned assets to earn income.
-- Manage Intel and heat, and use actions to gain an advantage.
-- Market events change the value of different holdings.
-- Win by reaching $35 and holding at least one asset from all six categories: Bank, Regulator, Chart, Wild, Corporate and Commodity.
+## Technology
 
-## Tech
-
-The game uses plain HTML, CSS and JavaScript. No build step or external packages are required.
+Plain HTML, CSS, and JavaScript in a single file.
